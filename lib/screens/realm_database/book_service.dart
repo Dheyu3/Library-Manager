@@ -19,4 +19,17 @@ class BookService {
   List<Book> getAllBooks() {
     return realm.all<Book>().toList();
   }
+
+  void updateBook(Book updatedBook) {
+    realm.write(() {
+      realm.add(updatedBook, update: true);
+    });
+  }
+
+  void deleteBook(String id) {
+    final book = realm.find<Book>(id);
+    if (book != null) {
+      realm.write(() => realm.delete(book));
+    }
+  }
 }

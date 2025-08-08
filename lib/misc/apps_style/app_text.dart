@@ -1,0 +1,33 @@
+class AppText {
+  static const String login = "Login";
+  static const String signToContinue = "Please Sign To Continue";
+  static const String email = "Enter Email";
+  static const String password = "Enter Password";
+  static const String loginIn = "Login In";
+  static const String notAccountMsg = "Don't Have Account? ";
+  static const String createAccount = "Create Account ";
+  static const String signUp = "Sign Up";
+  static const String createAccountMsg = "Please Create Your Account";
+  static const String enterUserName = "Enter User Name";
+  static const String enterBookDetail = "Enter Books Details";
+  static const String enterBookName = "Enter Book Name";
+  static const String enterAuthorName = "Enter Author Name";
+  static const String progressMsg = "How Much Part Of Book You Have read?;";
+  static const String readBookMsg = "Read This Book: ";
+  static const String part = "% Part";
+  static const String saveBook = "Save Book";
+  static const String updateBook = "Update Book";
+  static const String welcome = "Welcome";
+  static const String searchMsg = "Search by title or author...";
+  static const String progress = "Progress:";
+  static const String author = "Author:";
+  static const String avgRating = "Avg. Rating:";
+  static const String noBooksMsg = "No Book Found";
+  static const String updateRating = 'Update Rating';
+  static const String currentRating = "Current Rating";
+  static const String cancel = "Cancel";
+  static const String update = "Update";
+  static const String delete = "Delete ?";
+  static const String deleteMdg = "Are you sure you want to delete this Book?";
+  static const String filterByRating = 'Filter by Rating Range';
+}
